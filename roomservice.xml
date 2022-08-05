@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="TheMuppets/proprietary_vendor_amlogic" path="vendor/amlogic" />
+  <remove-project name="TheMuppets/proprietary_vendor_askey" path="vendor/askey" />
+  <remove-project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" />
+  <remove-project name="TheMuppets/proprietary_vendor_essential" path="vendor/essential" />
+  <remove-project name="TheMuppets/proprietary_vendor_fxtec" path="vendor/fxtec" />
+  <remove-project name="TheMuppets/proprietary_vendor_lenovo" path="vendor/lenovo" />
+  <remove-project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" />
+  <remove-project name="TheMuppets/proprietary_vendor_nokia" path="vendor/nokia" />
+  <remove-project name="TheMuppets/proprietary_vendor_nubia" path="vendor/nubia" />
+  <remove-project name="TheMuppets/proprietary_vendor_razer" path="vendor/razer" />
+  <remove-project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" />
+  <remove-project name="TheMuppets/proprietary_vendor_shift" path="vendor/shift" />
+  <remove-project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" />
+  
+    <remote name="gitlab_https" fetch="https://gitlab.com"/>
+  <remove-project name="The-Muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab_https"/>
+
+</manifest>
